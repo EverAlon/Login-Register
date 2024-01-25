@@ -26,7 +26,7 @@ const Login = ({ onClose } : any) => {
                     setPassword(e.target.value)
                 }}/>
                 <button onClick={handleLogin}>Iniciar session</button>
-                <p>¿No tienes cuenta?<Link href="/pages/registro">Registrate</Link></p>
+                <p>¿No tienes cuenta?<Link href="@/pages/registro">Registrate</Link></p>
                 <button onClick={onClose}>Cerrar</button>
             </div>
         </div>
