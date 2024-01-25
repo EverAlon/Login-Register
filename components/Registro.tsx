@@ -26,7 +26,7 @@ const Registro = ({onClose} : any) =>{
                     setPassword(e.target.value)
                 }}/>
                 <button onClick={handleRegister}>Registrarse</button>
-                <p>¿Ya tienes cuenta?<Link href="@/pages/login">Iniciar sesion</Link></p>
+                <p>¿Ya tienes cuenta?<Link href="/">Iniciar sesion</Link></p>
                 <button onClick={onClose}>Cerrar</button>
             </div>
         </div>
